@@ -1,0 +1,37 @@
+{
+  "name": "ml-search.js",
+  "version": "1.0.0-0",
+  "description": "a library for managing search UI state and MarkLogic queries",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard *.js **/*.js",
+    "test": "istanbul cover _mocha"
+  },
+  "keywords": [
+    "marklogic",
+    "search"
+  ],
+  "author": "joemfb",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ml-query-builder.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.1",
+    "node-fetch": "^1.5.2",
+    "sinon": "^1.17.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemfb/ml-search.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joemfb/ml-search.js/issues"
+  },
+  "homepage": "https://github.com/joemfb/ml-search.js#readme"
+}
